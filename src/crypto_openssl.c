@@ -85,7 +85,7 @@ static int sqlcipher_openssl_add_random(void *ctx, void *buffer, int length) {
   return SQLITE_OK;
 }
 
-#define OPENSSL_CIPHER "aes-256-cbc"
+#define OPENSSL_CIPHER "sm4-cbc"
 
 
 /* activate and initialize sqlcipher. Most importantly, this will automatically

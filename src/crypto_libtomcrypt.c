@@ -199,7 +199,7 @@ static int sqlcipher_ltc_kdf(void *ctx, int algorithm, const unsigned char *pass
 }
 
 static const char* sqlcipher_ltc_get_cipher(void *ctx) {
-  return "aes-256-cbc";
+  return "sm4-cbc";
 }
 
 static int sqlcipher_ltc_cipher(void *ctx, int mode, unsigned char *key, int key_sz, unsigned char *iv, unsigned char *in, int in_sz, unsigned char *out) {

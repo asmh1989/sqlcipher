@@ -123,7 +123,7 @@ static int sqlcipher_cc_cipher(void *ctx, int mode, unsigned char *key, int key_
 }
 
 static const char* sqlcipher_cc_get_cipher(void *ctx) {
-  return "aes-256-cbc";
+  return "sm4-cbc";
 }
 
 static int sqlcipher_cc_get_key_sz(void *ctx) {
